@@ -1,11 +1,6 @@
 do local _ = {
   about_text = "ET_DENS\nan advanced administration bot based on TG-CLI written in Lua\n\nhttps://github.com/DrossTech/Sor_tem.git\n\nAdmins\n#Dev : @lssui\n#Dev : @prnice1\n#Dev : @m_m882\n\nDens channel\n#Fev : @Mmed_98\n\nDross_Tech",
   disabled_channels = {
-    ["channel#id1062294732"] = false,
-    ["channel#id1065437196"] = false,
-    ["channel#id1069301314"] = false
-  },
-  enabled_plugins = {
     "admin",
     "onservice",
     "inrealm",
@@ -23,7 +18,6 @@ do local _ = {
     "all",
     "leave_ban",
     "supergroup",
-    "supergr_1",
     "whitelist",
     "msg_checks",
     "me",
@@ -32,7 +26,6 @@ do local _ = {
     "plugins",
     "DENS1",
     "DENS2",
-    "DENS3",
     "addsudo",
     "anti_spam",
     "badword",
@@ -56,9 +49,7 @@ do local _ = {
   },
   sudo_users = {
     171061591,
-    132038202,
-    238124249,
-    97345575
+
   }
 }
 return _
