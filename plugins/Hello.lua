@@ -58,17 +58,17 @@ local function description_rules(msg, nama)
          rules = data[tostring(msg.to.id)]["rules"]
          rules = "\nRules :\n"..rules.."\n"
       end
-      local sambutan = "اهلاوسهلا 😘"..nama.."\n🌹 نَـورتَ مجـموَعـهْ 👥 '"..string.gsub(msg.to.print_name, "_", " ").."'\n🌹 يرجى اتباع القوانين لتجنب الطرد 😉 \n"
-      local text = sambutan.."لروئية قوانين المجموعة /القوانين 🙏🏿      "
+      local sambutan = "آهــــ🙇🏻ــلا وسـهـلا😇🍃"..nama.."\nنًــــؤرت الــمـجــموعه😌🍃ْ '"..string.gsub(msg.to.print_name, "_", " ").."'\nأتــبع القوانين لتـجنب الــطــرد🙂🍃\n"
+      local text = sambutan.."الاضــهار قوانين المجموعة🙄 :القوانين"
       local text = text..""
       local text = text.."                                               "
-      local text = text.."للخروج من المجموعة /مغادره ☹️"
+      local text = text.."لـلــخــروج من الــمجموعه😕 :مغادره"
       local text = text..""
       local text = text.."                                               "
-      local text = text.."قنأة البوت 👇🏻]"
+      local text = text.."مــن فـضلگ تابع القنأة😚"
       local text = text..""
       local text = text.."                                               "
-      local text = text.."@Mmed_98 \n✋🏿☝🏿️"
+      local text = text.."https://telegram.me/joinchat/CjIxVz4fnQJ3obpWb-Ysiw"
       local receiver = get_receiver(msg)
       send_large_msg(receiver, text, ok_cb, false)
    end
