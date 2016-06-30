@@ -22,7 +22,6 @@ do local _ = {
     "msg_checks",
     "me",
     "ET_DENS",
-    "ET-help",
     "plugins",
     "DENS1",
     "DENS2",
