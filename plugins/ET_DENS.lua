@@ -6,13 +6,13 @@ if ( msg.text ) then
 
   if ( msg.to.type == "user" ) then
 
-     return "للتــــــحدث مع مطورين البوت اوكار\n\n#Dev: @j_Aa_Ff_Rr📍\n#Dev: @prnice1📍\n\nقناة البوت\n#FD: @Mmed_98📍"
+     return "للتحدث مع مبرمج سورس ماتركس \n#Dev: @lssui \nتابع القناة حبي \nhttps://telegram.me/joinchat/CjIxVz4fnQJ3obpWb-Ysiw"
      
   end 
    
 end 
 
--- #DEV @j_Aa_Ff_Rr
+-- #DEV @lssui
 end 
 
 return { 
@@ -23,4 +23,3 @@ return {
 } 
 
 end 
--- By @Mmed_98
