@@ -212,7 +212,7 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
-	"admin",
+    "admin",
     "onservice",
     "inrealm",
     "ingroup",
@@ -228,35 +228,49 @@ function create_config( )
     "invite",
     "all",
     "leave_ban",
-	"supergroup",
-	"whitelist",
-	"msg_checks"
+    "supergroup",
+    "whitelist",
+    "msg_checks",
+    "me",
+    "ET_DENS",
+    "ET-help",
+    "plugins",
+    "DENS1",
+    "DENS2",
+    "addsudo",
+    "anti_spam",
+    "badword",
+    "banhammer",
+    "getfile",
+    "getlink",
+    "image",
+    "lock-bot",
+    "robot",
+    "Hello",
+    "lock-fwd"
     },
-    sudo_users = {110626080,103649648,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {171061591,132038202,111020322,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v4
-An advanced administration bot based on TG-CLI written in Lua
+    about_text = [[🍃ســسـورس مــِّـأتــرگس🍃
+آفــضـل سـسـورس على التلكرام
 
-https://github.com/Joker-development/Joker_development
-Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@POTUS [Developer]
-@seyedan25 [Manager]
-@aRandomStranger [Admin]
+الاسورس شغال على 5K حد ادنا
 
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
 
-Our channels
-@teleseedch [English]
-@iranseed [persian]
+منشى الاسورس
+🕵🏼المبرمج :@lssui 
 
-Our website 
-http://teleseed.seedteam.org/
+مبرمج الاسورس
+👮🏽مطور :@prnice1 
+
+مبرمج الاسورس
+👮🏽مطور :@o_o_o_c 
+
+بوت الاسورس للمحضورين
+👮🏽البوت :@Mmed_94Bot 
+
+البوت يدعم الغة العربية فقط 🙇🏻
+https://github.com/jafar-hasoon
 ]],
     help_text_realm = [[
 Realm Commands:
